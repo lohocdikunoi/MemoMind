@@ -1,0 +1,19 @@
+========== TÀI KHOẢN MEMOMIND ==========
+
+--- MongoDB ---
+URI: mongodb://localhost:27017/memomind
+
+--- Tài khoản Demo ---
+Email: demo@memomind.com
+Password: 123456
+Tên: Người dùng Demo
+
+--- Backend ---
+Port: 3000
+JWT_SECRET: memomind_jwt_secret_key_2026
+JWT_REFRESH_SECRET: memomind_jwt_refresh_secret_2026
+
+--- Lệnh seed dữ liệu ---
+cd backend && npm run seed
+
+=============================================
